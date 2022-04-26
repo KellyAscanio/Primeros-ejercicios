@@ -1,0 +1,95 @@
+*{
+    margin: 0px;	
+    padding: 0px;
+     /* en esta parte le quitamos las margenes por defecto*/
+    }
+    
+    body{
+       color: #fff
+      /* en esta parte le damos color al fondo*/
+    }
+    
+    #contenedor {
+     width: 1500px;
+     margin: 0;
+     margin-top: 0px;
+    /*a toda la etiquetas div le damos una anchura de 1500 pixeles, margenes a los lados y abajo por auto y en la parte de arriba de 20 pixeles*/
+    }
+    
+    header {
+        height: 150px;
+        background: #000;
+        /* En esta parte le damos una altura de 150 pixeles y de fondo color negro al encabezado*/
+    }
+    
+    header h1 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 150px;
+        /* en esta parte le damos tamaño  al texto ,centramos el texto y una altura a la linea */
+    }
+    
+    nav {
+        background: rgb(199, 64, 87);
+        height: 60px;
+        /*en esta parte le damos un color al fondo y una altura al menu*/
+    }
+    nav h2 {
+        font-size: 40px;
+        text-align: center;
+        line-height: 60px;
+        /*En esta parte le damos un tamño a la letra, centramos el texto y le damos una altura ala linea*/
+    }   
+    
+    #alterno {
+        width: 240px;
+        height: 700px;
+        background: rgb(72, 192, 240);
+        float:left;
+        /*En esta parte le damos un ancho y largo le ponemos un fondo y que flote hacia el lado izquierdo*/
+    }
+    
+    #alterno h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 650px;	
+        /*aqui le damos un tamaño a la letra, la centramos y le damos una altura*/
+    }
+    
+    #contenido {
+        width: 1060px;
+        height: 700px;
+        float:left ;
+        background: rgb(153, 75, 226);
+        /* en esta parte le damos un ancho y largo, le ponemos un fondo al contenido  y que flote hacia el lado izquierdo */
+    }
+    
+    #contenido h2 {
+     /* en esta parte le damos un tamaño a letra, la centramos  y le damos una altura*/   font-size: 50px;
+        text-align: center;
+        line-height: 650px;
+        /* en esta parte le damos un tamaño a letra, la centramos  y le damos una altura*/
+    }
+    
+    
+    #opcion {
+        width: 200px;
+        height: 700px;
+        background: rgb(95, 247, 8);
+        float:right;
+        /* en esta parte le damos un ancho y largo a la estructura le damos un fondo y que flote hacia el lado derecho*/
+    }
+    
+    #opcion h2 {
+        font-size: 50px;
+        text-align: center;
+        line-height: 650px;	
+        /* en esta parte le damos un tamaño a la letra, la centramos y le damos una altura*/
+    }
+    
+    footer {
+        background: rgb(218, 67, 67);
+        text-align: center;
+        clear: both;
+        /*en esta parte le damos un fondo a pie de pagina, centramos el texto y limpiampos margenes o lados*/
+    }
